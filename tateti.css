@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(62, 204, 204);
+}
+
+#app{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#player {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
